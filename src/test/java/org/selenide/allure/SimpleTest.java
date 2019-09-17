@@ -81,7 +81,7 @@ public class SimpleTest {
   void testWithExceptions() {
     openGoogle();
     startSearch();
-    throw new RuntimeException("Any exception you not aware of");
+    throw new RuntimeException("Any exception you are not aware of");
   }
 
 }
